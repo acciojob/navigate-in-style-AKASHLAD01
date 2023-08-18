@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+.nav-list li:last-child {
+    margin-right: 0; /* Remove margin from the last item to prevent unnecessary spacing */
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #000; /* You can change the link color as needed */
+}
